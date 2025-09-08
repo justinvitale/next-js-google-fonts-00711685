@@ -17,7 +17,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Google Fonts Timeout Reproduction",
   description: "Minimal reproduction case for Google Fonts timeout at build time",
-  generator: "v0.app",
+    generator: 'v0.app'
 }
 
 export default function RootLayout({

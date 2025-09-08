@@ -14,15 +14,6 @@ export default function Home() {
             <p className="font-semibold">Semibold weight Montserrat text</p>
             <p className="font-bold">Bold weight Montserrat text</p>
           </div>
-
-          <div className="bg-muted p-4 rounded-lg">
-            <h3 className="font-semibold mb-2">Expected Issue:</h3>
-            <p className="text-sm text-muted-foreground">
-              During build time, Next.js may timeout when trying to fetch and optimize the Montserrat font files from
-              Google Fonts CDN, particularly the woff2 files like:
-              https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyyTh89ZNpQ.woff2
-            </p>
-          </div>
         </div>
       </div>
     </main>
